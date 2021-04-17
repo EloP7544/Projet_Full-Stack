@@ -1,4 +1,4 @@
-18/04/2021 
+### 18/04/2021 
   ##### 1. maj_daily.md 
         was added to MAIN branch, this is an update Diray or Todo List for advancement of our project 
   ##### 2. requirements.txt 

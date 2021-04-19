@@ -15,3 +15,14 @@
       We will update our dailys notes directly on our web interface of github 
   
   
+  
+### 19/04/2021
+  ##### 1. How to save training history of our model ? (This is for displaying our training graphe with Plotly Dash in our website)
+         1.1  history=model.fit(train_X,train_Y,batch_size=8,epochs=100)
+         1.2  import pickle
+
+              with open('trainHistoryDict.txt', 'wb') as file_pi:
+                  pickle.dump(history.history, file_pi)
+                  
+         1.3  with open('trainHistoryDict.txt','rb') as file_pi:
+                  history=pickle.load(file_pi)

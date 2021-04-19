@@ -23,5 +23,6 @@
 
               with open('trainHistoryDict.txt', 'wb') as file_pi:
                   pickle.dump(history.history, file_pi)
-         1.3      with open('trainHistoryDict.txt','rb') as file_pi:
+                  
+         1.3  with open('trainHistoryDict.txt','rb') as file_pi:
                   history=pickle.load(file_pi)
